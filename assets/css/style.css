@@ -155,7 +155,7 @@
 
 .section, .callout {
 	position: relative;
-	padding: 50px 0;
+	padding: 80px 0;
 }
 
 .callout {
@@ -1497,6 +1497,10 @@ margin-top:10px;
 .medium span {
 	background-color: #3CB371;
 }
+.twitter span {
+	background-color: #00aced;
+}
+
 .icon-button .icon-youtube {
     color: #e64a41;
 }
@@ -1524,11 +1528,18 @@ margin-top:10px;
 .icon-button .icon-medium {
 	color: #3CB371;
 }
+
+.icon-button .icon-twitter {
+	color: #00aced;
+}
+
+
 .icon-button:hover .icon-youtube,
 .icon-button:hover .icon-facebook,
 .icon-button:hover .icon-linkedin,
 .icon-button:hover .icon-github,
 .icon-button:hover .icon-medium,
+.icon-button:hover .icon-twitter,
 .icon-button:hover .fa-fw,
 .icon-button:hover .icon-instagram,
 .icon-button:hover .icon-soundcloud,

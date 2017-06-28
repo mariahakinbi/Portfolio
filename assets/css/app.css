@@ -188,11 +188,14 @@ a:after {
 }
 .section-solid h1,
 .section-solid h2,
-.section-solid h3,
 .section-solid h4,
 .section-solid h5,
 .section-solid h6 {
   color: #646464;
+}
+
+.section-solid h3 {
+  color: #99badd
 }
 .section-solid .section-title-border {
   background: rgba(0, 0, 0, 0.13);
@@ -204,9 +207,11 @@ a:after {
 .section-solid-white h1,
 .section-solid-white h2,
 .section-solid-white h3,
-.section-solid-white h4,
 .section-solid-white h5,
 .section-solid-white h6 {
+  color: #99badd;
+}
+.section-solid-white h4 {
   color: #646464;
 }
 .section-solid-white .section-title-border {
@@ -375,7 +380,7 @@ p.copyright {
   margin-bottom: 50px;
   position: relative;
   margin-left: 80px;
-  background: #869198;
+  background: #99badd;
   padding: 11px 15px;
   color: #fff;
   margin: 0 0 45px 0;
@@ -435,7 +440,7 @@ p.copyright {
   text-align: center;
   left: 20%;
   margin: 7px 0 0 -24px;
-  background-color: #869198;
+  background-color: #99badd;
 }
 .v-timeline > li .v-icon:before,
 .v-timeline > li .v-icon:after {
@@ -448,12 +453,12 @@ p.copyright {
 }
 .v-timeline > li .v-icon:before {
   bottom: 100%;
-  border-bottom: 10px solid #869198;
+  border-bottom: 10px solid #99badd;
 }
 .v-timeline > li .v-icon:after {
   top: 100%;
   width: 0;
-  border-top: 10px solid #869198;
+  border-top: 10px solid #99badd;
 }
 /* Example Media Queries */
 @media screen and (max-width: 65.375em) {
