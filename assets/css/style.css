@@ -1094,11 +1094,11 @@ button.close {
     transition: all 0.4s;
 }
 #quote-carousel .carousel-indicators .active {
-    background: #333333;
+    background: #99badd;
     width: 30px;
     height: 30px;
     border-radius: 100px;
-    border-color: grey;
+    border-color: #CCCCCC;
     opacity: 1;
     overflow: hidden;
 }
