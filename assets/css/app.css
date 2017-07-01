@@ -1004,8 +1004,9 @@ form.signup button.btn {
 }
 .pace .pace-activity:before {
   content: '';
-  background-color: #202020;
-  background-image: url('../img/logo/logo2.png');
+  background-color: lightgrey;
+  /*background-image: url('../img/logo/logo2.png');*/
+  align-content: center;
   background-repeat: no-repeat;
   background-position: center center;
   display: block;
