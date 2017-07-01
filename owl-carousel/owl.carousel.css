@@ -41,7 +41,9 @@
 .owl-carousel .owl-item{
 	float: left;
 	height: auto; 
-    width: 50px; 
+    width: 100%;
+	display: block;
+	/*width: auto;*/
 }
 .owl-controls .owl-page,
 .owl-controls .owl-buttons div{
@@ -66,7 +68,7 @@
 .owl-carousel  .owl-item{
 	margin-top: 20px;
 	height: auto; 
-    width: 50px; 
+    width: 100%;
 	-webkit-backface-visibility: hidden;
 	-moz-backface-visibility:    hidden;
 	-ms-backface-visibility:     hidden;
