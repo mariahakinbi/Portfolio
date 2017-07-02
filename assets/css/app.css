@@ -987,16 +987,18 @@ form.signup button.btn {
 .pace .pace-progress {
   display: block;
   position: fixed;
-  z-index: 5000;
+  z-index: 8000;
   top: 0;
   left: 0;
-  height: 8px;
+  height: 10px;
   background-color: #99badd;
-  -webkit-transition: -webkit-transform 0.3s, width 1s;
-  -moz-transition: width 1s;
-  -o-transform: width 1s;
-  transition: transform .3s, width 1s;
-  pointer-events: none;
+  /*-webkit-transition: -webkit-transform 0.3s, width 1s;*/
+  /*-moz-transition: width 1s;*/
+  /*-o-transform: width 1s;*/
+  /*transition: transform 0.3s, width 1s;*/
+  /*pointer-events: none;*/
+  /*-webkit-transition: all 1s 2s ease-out;  !* Android 2.1+, Chrome 1-25, iOS 3.2-6.1, Safari 3.2-6  *!*/
+  /*transition: all 1s 2s ease-out;  !* Chrome 26, Firefox 16+, iOS 7+, IE 10+, Opera, Safari 6.1+  *!*/
 }
 .pace .pace-active .pace-progress {
   -webkit-transform: translateY(0);
@@ -1004,8 +1006,8 @@ form.signup button.btn {
 }
 .pace .pace-activity:before {
   content: '';
-  background-color: lightgrey;
-  /*background-image: url('../img/logo/logo2.png');*/
+  background-color: darkslategrey;
+  /*background-image: url('../img/background/thumbnail.png');*/
   align-content: center;
   background-repeat: no-repeat;
   background-position: center center;
@@ -1323,7 +1325,7 @@ form.signup button.btn {
   transform: translate(-50%, -50%);
 }
 .overlay .title {
-  z-index: 9999;
+  z-index: 5000;
   text-transform: uppercase;
   font-size: 16px;
   color: white;
@@ -1518,6 +1520,8 @@ form.signup button.btn {
   position: relative;
   z-index: 2000;
   text-align: center;
+  /*-webkit-transition: all 3s ease-in;  !* Android 2.1+, Chrome 1-25, iOS 3.2-6.1, Safari 3.2-6  *!*/
+  /*transition: all 3s ease-in;  !* Chrome 26, Firefox 16+, iOS 7+, IE 10+, Opera, Safari 6.1+  *!*/
 }
 /* Small devices (tablets, 768px and up) */
 @media (min-width: 768px) {
