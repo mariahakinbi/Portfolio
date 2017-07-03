@@ -646,7 +646,6 @@ p.copyright {
  *  --------------------------------------------------------- */
 .navbar {
   margin-bottom: 0;
-
 }
 .navbar-default {
   background-color: transparent;
@@ -742,9 +741,13 @@ p.copyright {
 	border-radius: 0;
 }
 #nav{
-	position: absolute;
+	position: relative;
 	width: 100%;
 	z-index: 2001;
+    -webkit-transition:400ms ease;
+    -moz-transition:400ms ease;
+    -o-transition:400ms ease;
+    transition:400ms ease;
 }
 .navbar-default .navbar-nav > .active > a, 
 .navbar-default .navbar-nav > .active > a:hover, 
