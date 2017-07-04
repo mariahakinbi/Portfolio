@@ -744,10 +744,12 @@ p.copyright {
 	position: relative;
 	width: 100%;
 	z-index: 2001;
-    -webkit-transition:400ms ease;
-    -moz-transition:400ms ease;
-    -o-transition:400ms ease;
-    transition:400ms ease;
+    -webkit-transition:1500ms ease;
+    -moz-transition:1500ms ease;
+    -o-transition:1500ms ease;
+    transition:1500ms ease;
+    /*-webkit-transition: top 0.5s;*/
+    /*transition: top 0.5s;*/
 }
 .navbar-default .navbar-nav > .active > a, 
 .navbar-default .navbar-nav > .active > a:hover, 

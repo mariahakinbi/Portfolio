@@ -67,8 +67,9 @@
 
 		$(window).scroll(function() {
 			if($(this).scrollTop() >= 100) {
-				// ('navbar').fadeIn();
 				navbar.addClass('navbar-color');
+				// (navbar.fadeIn());
+
 			}
 			else {
 				navbar.removeClass('navbar-color');
