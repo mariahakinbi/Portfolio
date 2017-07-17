@@ -1710,6 +1710,27 @@ lesshat-selector {
     font-size: 3.125em;
     margin: 45px 0 10px;
   }
+  .stuff {
+    position: relative;
+    top: -100px;
+  }
+
+  .headingz {
+    position: relative;
+    top: -100px;
+  }
+
+  .social-box {
+    position: relative;
+    top:-100px;
+  }
+  .arrow-down {
+    display: block;
+    position: relative;
+    top:120px
+  }
+
+
 }
 /* ---------------------------------------------------------
  *	Index carousel
