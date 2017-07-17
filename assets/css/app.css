@@ -1287,6 +1287,7 @@ form.signup button.btn {
  * --------------------------------------------------------- */
 #portfolio-container {
   overflow: hidden;
+  /*align-content: center;*/
 }
 .filter-tags {
   margin-bottom: 35px;
@@ -1621,10 +1622,40 @@ lesshat-selector {
   -ms-animation: arrowBounce 2.5s infinite;
   animation: arrowBounce 2.5s infinite;
 }
+
+/* Small devices (iphone5, 320px and up) */
+@media (min-width: 320px) {
+  .headingz {
+    font-size: 1.5em;
+    margin: 20px 0 15px;
+  }
+
+@media (min-width: 370px) {
+  .headingz {
+    font-size: 1.5em;
+    margin: 0px 0 0px;
+  }
+@media (min-width: 560px) {
+  .stuff {
+    position: relative;
+    top: -75px;
+  }
+
+  .headingz {
+    position: relative;
+    top: -75px;
+  }
+
+  .social-box {
+    position: relative;
+    top:-75px;
+  }
+}
+
 /* Small devices (tablets, 768px and up) */
 @media (min-width: 768px) {
-  .heading {
-    font-size: 2.08333333em;
+  .headingz {
+    font-size: 2.08em;
     margin: 45px 0 10px;
   }
   #signupForm .form-control-feedback {
@@ -1644,7 +1675,7 @@ lesshat-selector {
     margin: 45px 0 10px;
   }
 }
-/* Medium devices (desktops, 992px and up) */
+/* Medium devices (desktops, 1200px and up) */
 @media (min-width: 1200px) {
   .heading {
     font-size: 3.125em;

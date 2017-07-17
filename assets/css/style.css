@@ -1621,6 +1621,10 @@ margin-top:10px;
 	background-color: #00aced;
 }
 
+.gmail span {
+    background-color: #e64a41;
+}
+
 .icon-button .icon-youtube {
     color: #e64a41;
 }
@@ -1653,6 +1657,10 @@ margin-top:10px;
 	color: #00aced;
 }
 
+.icon-button .icon-gmail {
+    color: #e64a41;
+}
+
 
 .icon-button:hover .icon-youtube,
 .icon-button:hover .icon-facebook,
@@ -1660,6 +1668,7 @@ margin-top:10px;
 .icon-button:hover .icon-github,
 .icon-button:hover .icon-medium,
 .icon-button:hover .icon-twitter,
+.icon-button:hover .icon-gmail,
 .icon-button:hover .fa-fw,
 .icon-button:hover .icon-instagram,
 .icon-button:hover .icon-soundcloud,
