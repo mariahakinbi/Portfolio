@@ -1432,6 +1432,101 @@ form.signup button.btn {
     width: 25%; 
   }
 }
+
+
+/*
+ * Redo of Skills section
+ * --------------------------------------------------------- */
+.skills-container{
+	width: 100%;
+	height: auto;
+	min-height: 30em;
+	margin: 0 auto;
+}
+.skill-container .icon {
+	max-width: 5em;
+	height: 5em;
+	margin: 0 auto;
+}
+.skills-container .coding-container, .skills-container .coursework-container{
+	width: 100%;
+	margin-bottom: 2em;
+	position: relative;
+	display: -webkit-flex;
+	display: flex;
+	-webkit-flex-direction: column;
+	flex-direction: column;
+	/*-webkit-align-items: center;*/
+	/*align-items: center;*/
+	font-family: 'Work Sans', sans-serif;
+	font-size: 1.0em;
+}
+/*.skills-container .coding-container {*/
+	/*float: left;*/
+/*}*/
+.skills-container .coding-container ul {
+	width: 100%;
+	list-style: none;
+}
+.skills-container .coding-container ul li {
+	font-size: 1em;
+	line-height: 1.5em;
+}
+/*.skills-container .coursework-container {*/
+	/*float: right;*/
+/*}*/
+.skills-container .coursework-container ul {
+	width: 100%;
+	list-style: none;
+}
+
+.skills-container .coursework-container ul li {
+	font-size: 1em;
+	line-height: 1.5em;
+}
+
+/*.h3 .skillshighlight {*/
+	/*background-color: #99badd;*/
+	/*display: inline-block;*/
+	/*padding: 0.25em;*/
+	/*font-size: 1.25em;*/
+/*}*/
+
+.skill-container .skillshighlight {
+	background-color: #99badd;
+	display: inline-block;
+	padding: 0.25em;
+	font-size: 1.25em;
+}
+
+.skills-container .socialmedia-container, .footer .socialmedia-container {
+	clear: both;
+	width: 60%;
+	margin: 1em auto;
+	-webkit-display: flex;
+	display: flex;
+	-webkit-flex-direction: row;
+	flex-direction: row;
+	-webkit-align-items: center;
+	align-items: center;
+	-webkit-justify-content: center;
+	justify-content: center;
+}
+.skills-container .socialmedia-container a {
+	text-decoration: none;
+}
+.skills-container .socialmedia-container .social, .footer .socialmedia-container .social {
+	width: 32px;
+	margin: 0 1.5em;
+	padding: 0.5em 0;
+	/*border-bottom: 3px solid transparent;*/
+}
+.skills-container .socialmedia-container .social:hover {
+  text-decoration:none;
+	/*border-bottom: 3px solid #99badd;*/
+	/*cursor: pointer;*/
+}
+
 /* 
  * Skills
  * --------------------------------------------------------- */

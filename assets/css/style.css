@@ -1524,6 +1524,22 @@ margin-top:10px;
         margin: 0 0 30px;
     }
 }
+/* ---------------------------------------------- /*
+ * Skills
+/* ---------------------------------------------- */
+#skills h1, #skills h2{
+	color: #FFF;
+	background-color: #99badd;
+	align-items: center;
+	font-weight: bold
+}
+
+
+#skills h3, #skills h4{
+	color: #99badd;
+	align-items: left;
+	font-weight: bold
+}
 
 /* ---------------------------------------------- /*
  * Icons
