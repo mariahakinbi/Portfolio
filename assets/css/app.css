@@ -1522,7 +1522,7 @@ form.signup button.btn {
 	/*border-bottom: 3px solid transparent;*/
 }
 .skills-container .socialmedia-container .social:hover {
-  text-decoration:none;
+  /*text-decoration:none;*/
 	/*border-bottom: 3px solid #99badd;*/
 	/*cursor: pointer;*/
 }
