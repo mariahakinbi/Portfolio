@@ -370,6 +370,10 @@ h3 > .fa {
 	100% { top:25px; opacity: 0;}
 }
 
+a {
+	text-decoration: none;
+}
+
 /
 /* ---------------------------------------------- /*
  * Intro
@@ -1600,6 +1604,10 @@ margin-top:10px;
     width: 4.5rem;
     z-index: 10;
 }
+
+/*.icon-button a {*/
+	/*text-decoration: none;*/
+/*}*/
 .youtube span {
     background-color: #e64a41;
 }
