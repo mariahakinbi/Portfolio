@@ -1011,7 +1011,7 @@ form.signup button.btn {
 }
 .pace .pace-activity:before {
   content: '';
-  background-color: darkslategrey;
+  background-color: lightgrey;
   /*background-image: url('../img/background/thumbnail.png');*/
   align-content: center;
   background-repeat: no-repeat;
@@ -1464,6 +1464,14 @@ form.signup button.btn {
 /*.skills-container .coding-container {*/
 	/*float: left;*/
 /*}*/
+
+.skills-container .coding-container h4{
+  margin: 0;
+}
+.skills-container .coding-container h5{
+  margin-top: 0;
+}
+
 .skills-container .coding-container ul {
 	width: 100%;
 	list-style: none;
