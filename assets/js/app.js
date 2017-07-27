@@ -33,7 +33,7 @@ $(function () {
 	 */
 	
 	$.backstretch([
-		"assets/img/background/Love.jpg",
+		"assets/img/background/editedmt.PNG",
 	], {duration: 3800, fade: 1500});
 	
 	
