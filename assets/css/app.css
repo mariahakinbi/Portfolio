@@ -708,26 +708,26 @@ p.copyright {
   background-color: #fff;
   color: #000;
 }
-@media (max-width: 768px) {
-  .navbar-default .navbar-collapse,
-  .navbar-default .navbar-form {
-	background: #1d1d1d;
-	border: 0;
-	border-top: 1px solid #444;
-	box-shadow: none;
-	margin-top: 15px;
-  }
-  .navbar-default .navbar-nav > li > a {
-    color: #fff;
-  }
-  .navbar-default .navbar-nav .open .dropdown-menu > li > a {
-    color: #999;
-  }
-  .navbar-default .navbar-nav .open .dropdown-menu > li > a:hover,
-  .navbar-default .navbar-nav .open .dropdown-menu > li > a:focus {
-    color: #777;
-  }
-}
+/*@media (max-width: 768px) {*/
+  /*.navbar-default .navbar-collapse,*/
+  /*.navbar-default .navbar-form {*/
+	/*background: #1d1d1d;*/
+	/*border: 0;*/
+	/*border-top: 1px solid #444;*/
+	/*box-shadow: none;*/
+	/*margin-top: 15px;*/
+  /*}*/
+  /*.navbar-default .navbar-nav > li > a {*/
+    /*color: #fff;*/
+  /*}*/
+  /*.navbar-default .navbar-nav .open .dropdown-menu > li > a {*/
+    /*color: #999;*/
+  /*}*/
+  /*.navbar-default .navbar-nav .open .dropdown-menu > li > a:hover,*/
+  /*.navbar-default .navbar-nav .open .dropdown-menu > li > a:focus {*/
+    /*color: #777;*/
+  /*}*/
+/*}*/
 .navbar .container{
 	width: 100%;
 	padding: 15px 10%;
@@ -1753,6 +1753,7 @@ lesshat-selector {
   }
 }
 
+/* Small devices (portrait iphone6s) */
 @media (min-width: 370px) {
   .stuff {
     position: relative;
@@ -1773,9 +1774,11 @@ lesshat-selector {
   .arrow-down {
     display: block;
     position: relative;
-    top:-35px;
+    top:5px;
   }
 }
+
+/* Small devices (landscape mode iphone SE) */
 @media (min-width: 560px) {
   .stuff {
     position: relative;
@@ -1794,10 +1797,25 @@ lesshat-selector {
   .arrow-down {
     display: block;
     position: relative;
-    top:-100px
+    top: -85px;
+  }
+}
+/* Small devices (landscape mode iphone 6s) */
+@media (min-width: 660px) {
+  .arrow-down {
+    display: block;
+    position: relative;
+    top: -45px;
   }
 }
 
+/* Small devices (landscape mode iphone 6s+) */
+@media (min-width: 730px) {
+
+  .arrow-down {
+    top: -25px;
+  }
+}
 /* Small devices (tablets, 768px and up) */
 @media (min-width: 768px) {
   .headingz {
@@ -1812,6 +1830,17 @@ lesshat-selector {
   }
   .arrow-down {
     display: block;
+    position: relative;
+    top: 225px;
+  }
+}
+
+/* Medium devices (desktop, 800px+) */
+@media (min-width: 800px) {
+  .arrow-down {
+    display: block;
+    position: relative;
+    top: 125px;
   }
 }
 /* Medium devices (desktops, 992px and up) */
@@ -1821,6 +1850,15 @@ lesshat-selector {
     margin: 45px 0 10px;
   }
 }
+/* Medium devices (ipad mini4 landscape) */
+@media (min-width: 1020px) {
+
+  .arrow-down {
+    position: relative;
+    top: 125px;
+  }
+}
+
 /* Medium devices (desktops, 1200px and up) */
 @media (min-width: 1200px) {
   .heading {
@@ -1846,9 +1884,17 @@ lesshat-selector {
     position: relative;
     top:120px
   }
-
-
 }
+
+/* Medium devices (ipad pro landscape + desktops) */
+@media (min-width: 1300px) {
+
+  .arrow-down {
+    position: relative;
+    top: 125px;
+  }
+}
+
 /* ---------------------------------------------------------
  *	Index carousel
  * --------------------------------------------------------- */
